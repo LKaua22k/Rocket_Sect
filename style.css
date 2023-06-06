@@ -13,10 +13,16 @@ li{
 }
 
 :root{
+    --back-color:#2C2B3D;
+    --span-color:#00BFA6;
+    --text-grey:#C2C2C2;
+    --text-white:#FFFFFF;
+
     font-size: 62.5%;
 }
 
 body{
     min-height: 100vh;
     font-size: 1.6rem;
+    background-color: var(--back-color);
 }
