@@ -12,11 +12,18 @@ li{
     list-style: none;
 }
 
+span{
+    color: var(--span-color);
+}
+
 :root{
     --back-color:#2C2B3D;
     --span-color:#00BFA6;
     --text-grey:#C2C2C2;
     --text-white:#FFFFFF;
+
+    --font-mono:'JetBrains Mono', monospace;
+    --font-open: 'Open Sans', sans-serif;
 
     font-size: 62.5%;
 }
@@ -25,4 +32,69 @@ body{
     min-height: 100vh;
     font-size: 1.6rem;
     background-color: var(--back-color);
+    font-family: var(--font-mono);
 }
+.container{
+    max-width: 108.3rem;
+    margin: 0 auto;
+    padding-top: 7.1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 6.4rem;
+}
+
+ul li a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--text-white);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10.1rem;
+}
+
+main img{
+    width: 40rem;
+}
+
+.texts{
+    text-align: center;
+}
+
+.texts h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: var(--text-white);
+    margin-bottom: 5.9rem;
+}
+
+.texts p{
+    max-width: 60.4rem;
+    color: var(--text-grey);
+    font-family: var(--font-open);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.texts p span{
+    font-weight: 700;
+}
+
+
+
