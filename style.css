@@ -103,6 +103,7 @@ main img{
 footer{
     text-align: center;
     margin-top: 15.7rem;
+    margin-bottom: 2.3rem;
 }
 
 footer p{
@@ -131,5 +132,31 @@ footer .line{
     left: 2rem  ;
 }
 
+@media (max-width:973) {
+    .container{
+        margin: 0 4rem;
+    }
+
+    .texts h1{
+        line-height: 4rem;
+    }
+}
+
+@media (max-width:789) {
+    .container{
+        margin: 0 4rem;
+    }
+
+    .texts h1{
+        line-height: 4rem;
+    }
+    
+    main{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        
+}
 
 
