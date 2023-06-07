@@ -156,6 +156,10 @@ footer .line{
         justify-content: center;
     }
 
+    main img{
+        width: 3rem;
+    }
+
     nav a img{
         width: 10rem;
     }
