@@ -132,7 +132,7 @@ footer .line{
     left: 2rem  ;
 }
 
-@media (max-width:973) {
+@media (max-width:973px) {
     .container{
         margin: 0 4rem;
     }
@@ -142,7 +142,7 @@ footer .line{
     }
 }
 
-@media (max-width:789) {
+@media (max-width:789px) {
     .container{
         margin: 0 4rem;
     }
