@@ -24,9 +24,9 @@ Bibliotecas
 
 ## 💻 Projeto
 
+Rocket.sect é uma aplicação com o objetivo de promover a importância de seus dados estarem protegidos.
 
-
-- [Acesse o projeto finalizado, online](https://lkaua22k.github.io/treine_me/)
+- [Acesse o projeto finalizado, online](https://lkaua22k.github.io/Rocket_Sect/)
 
 ---
 
